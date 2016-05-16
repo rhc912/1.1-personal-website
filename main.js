@@ -1,1 +1,1 @@
-//alert ('I love you')
+//alert ('If you drink Pepsi GTFO')

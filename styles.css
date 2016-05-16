@@ -1,10 +1,10 @@
 body {
-  background-image: url('https://umd.spoonuniversity.com/wp-content/uploads/sites/19/2014/02/BaconStrips.jpg');
+  background-image: url('http://fullhdpictures.com/wp-content/uploads/2016/01/BEst-of-Coca-Cola-Wallpaper.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: black;
+  color: white;
 }
 
 h1,
@@ -30,4 +30,9 @@ h2{
 .nav-link a{
   text-decoration: none;
   color: red;
+}
+p {
+  border: 20px;
+  margin: auto;
+  padding: 20px
 }
