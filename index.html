@@ -6,11 +6,18 @@
     <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
-
   <h1>Coca-Cola &reg;</h1>
   <h2>You can drink it and clean with it!</h2>
-
+  <ul id="cola-links" class="nav-links">
+    <li class="nav-link"><a href="http://www.coca-colacompany.com/">Coca Cola Company</a></li>
+    <li class="nav-link"><a href="http://www.coca-colaproductfacts.com/en/homepage/">Coca-Cola Facts</a></li>
+    <li class="nav-link"> <a href="http://www.coca-colaproductfacts.com/en/coca-cola-ingredients/">Coca-Cola Ingredients </a> </li>
+    <li class="nav-link"> <a href="http://www.coca-colaproductfacts.com/en/frequently-asked-questions/">Frequently Asked Questions </a> </li>
+<font color="#FFFFFF"><marquee bgcolor="##00FF00" direction="right" loop="40" width="50%">You will drink Coke foreva!</marquee></font>
+  </ul>
 <hr />
+<div id="section">
+<h2>Coke Rundown</h2>
 <p>
 Did you know you can drink Coke&reg;. It is produced by The Coca-Cola Company of Atlanta, Georgia, and is
  often referred to simply as Coke (a registered trademark of The Coca-Cola Company in the United States since March
@@ -21,20 +28,60 @@ Did you know you can drink Coke&reg;. It is produced by The Coca-Cola Company of
  The name refers to two of its original ingredie
  nts: kola nuts, a source of caffeine, and coca leaves. The current formula of Coca-Cola remains a trade secret, although a va
 riety of reported recipes and experimental recreations have been published.
-
-
-
 </p>
+</div>
+<div id="section2">
+  <h2>Coke Flavors</h2>
+  <p>
+  There are many flavors to choose. We offer rasberry all the way to vanilla! If you are feeling exotic, I'd r
+  ecommend the Pineapple flavored Coke. However, if you
+   want a good ole' American classic, go for vanilla!
+  </p>
+</div>
+<table border="1" style="width:100%">
+  <tr>
+    <th>Flavor</th>
+    <th>Year Debuted</th>
+    <th>Popularity</th>
+  </tr>
+  <tr>
+    <td>Vanilla</td>
+    <td>1995</td>
+    <td>4 Stars</td>
+  </tr>
+  <tr>
+    <td>Cherry</td>
+    <td>1982</td>
+    <td>5 Stars</td>
+  </tr>
+  <tr>
+    <td>Original</td>
+    <td>1882</td>
+    <td>5 Stars</td>
+  </tr>
+  <tr>
+    <td>Strawberry</td>
+    <td>2002</td>
+    <td>1 Star</td>
+  </tr>
+</table>
+<img id="myImage" onclick="changeImage()" src="http://i.dailymail.co.uk/i/pix/2014/01/26/article-2546363-1AFB247500000578-934_306x423.jpg" width="285" height="285">
+<script>
 
-<ul id="bacon-links" class="nav-links">
-  <li class="nav-link"><a href="http://baconipsum.com/?paras=5&type=all-meat&start-with
-    -lorem=1">Bacon Ipsum</a></li>
-  <li class="nav-link"><a href="http://baconipsum.com/?paras=5&type=all-meat&start-with-lor
-    em=2">Bacon Js</a></li>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src == "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFfLPr-v44gxH4d-w0Xbhz0VvJnhVH5AtqIbYp7zmeNlMMBsBO") {
+        image.src = "http://i.dailymail.co.uk/i/pix/2014/01/26/article-2546363-1AFB247500000578-934_306x423.jpg";
+    } else {
+        image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFfLPr-v44gxH4d-w0Xbhz0VvJnhVH5AtqIbYp7zmeNlMMBsBO";
+    }
+}
+</script>
 
-</ul>
-
-<script src="main.js"></script>
-
+<footer class="disclaimer">
+  <a id="disclaimers"> <img src=" http://www.textfiles.com/underconstruction/HeHeartlandPark2601underconstructionbar9.gif" height="17px" width="271px"> </a>
+<br/>
+<small class="disclaimer">Rob's Creation LLC&reg;</small>
+</footer>
   </body>
 </html>
